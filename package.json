@@ -1,0 +1,18 @@
+{
+  "name": "www.aipai.com-re",
+  "version": "1.0.0",
+  "description": "xx",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "jsencrypt": "^3.3.2",
+    "md5": "^2.3.0",
+    "node-jsencrypt": "^1.0.0"
+  }
+}
