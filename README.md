@@ -1,6 +1,13 @@
 # 爱拍网登录
 
-目标网址：
+B站视频：等待更新
+代码仓库：https://github.com/JSREP/www.aipai.com-RE
+全部文章索引：https://github.com/JSREP/jsrep-index
+逆向工具集：https://github.com/JSREI
+
+![image-20241024220755240](https://cdn.jsdelivr.net/gh/JSREI/.github/profile/README.assets/image-20241024220755240.png)
+
+# 一、逆向目标
 
 ```
 https://www.aipai.com/
@@ -9,6 +16,10 @@ https://www.aipai.com/
 登录的时候有个用户名和密码参数都是被加密的：
 
 ![image-20221227025039395](README.assets/image-20221227025039395.png)
+
+我们的目标就是搞清楚这个用户名和密码是如何加密的。
+
+# 二、分析过程
 
 通过请求的Initiator直接定位到登录的代码的位置：
 
@@ -32,30 +43,17 @@ https://www.aipai.com/
         
 ```
 
-是一个RSA加密，并且公钥都放在这里了，就没啥好说的了，分析完毕。
+是一个RSA加密，并且公钥都放在这里了，就没啥好说的了，分析完毕，代码详见[main.js](main.js)。
+
+# # 三、逆向技术交流群
+
+扫码加入逆向技术交流群：
+<img src="https://cdn.jsdelivr.net/gh/JSREI/.github/profile/README.assets/image-20241016230653669.png" style="width: 200px">
+
+如群二维码过期，可以加我个人微信（CC11001100-weixin），发送【逆向群】拉你进群：
+<img src="https://cdn.jsdelivr.net/gh/JSREI/.github/profile/README.assets/image-20231030132026541-7614065.png" style="width: 200px">
+
+[点此](https://t.me/jsreijsrei)或扫码加入TG交流群：
+<img src="https://cdn.jsdelivr.net/gh/JSREI/.github/profile/README.assets/image-20241016231143315.png" style="width: 200px">
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
