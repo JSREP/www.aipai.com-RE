@@ -1,1 +1,36 @@
 .idea
+# Build outputs
+dist/
+build/
+out/
+target/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.vs/
+
+# Python specific
+__pycache__/
+*.py[cod]
+
+# Node.js specific
+node_modules/
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+.tmp
+.temp
